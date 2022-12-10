@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+.contact-head{
+  font-family: 'Josefin Sans', sans-serif;
+	color:rgb(115, 161, 254);
+	letter-spacing: 0.2rem;;
+}
+.contact{
+    height:700px;
+    width:580px;
+    /* background: rgba(255, 255, 255, 0.1); */
+  box-shadow: 0 8px 32px 0 rgba(97, 69, 239, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  margin-left: 45rem;
+}
+.contact-img{
+  height:28rem;
+  width: 28rem;
+}
+
+.block{
+  color: #adbaf1;
+}
+.shadow{
+  width:28rem;
+  margin-left: 4rem;
+border:3px solid rgba(4, 20, 62, 0.57);
+  background-color: rgba(4, 20, 62, 0.57);
+}
+
+.contact-label{
+  margin-left: 4rem;
+}
+.shadow::placeholder{
+padding-left: 13px;
+  font-weight: bold;
+  opacity: .2;
+  color: rgb(255, 246, 246);
+
+padding-right: 250px;
+font-size:18px;
+/* justify-items: center;
+margin-right: 15px; */
+}
+
+.textarea::placeholder{
+padding-top: 25px;
+padding-left: 13px;
+
+}
+.textarea[type="text"],select{
+margin-left: 6px;
+}
+  
+   
+.button{
+  font-size: 25px;
+  letter-spacing: 3px;
+  
+}
+.button:hover{
+  background-color: rgba(4, 20, 62, 0.57);
+  border:2px solid rgba(4, 20, 62, 0.57);
+}

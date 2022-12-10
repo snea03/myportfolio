@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.footer{
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgba(8, 8, 68, 0.379);
+    border: 2px solid rgba(8, 8, 68, 0.379);
+    box-shadow:rgba(8, 8, 68, 0.379); ;
+}
+.underline{
+    letter-spacing: 0.3rem;
+    
+}
+.footer-text{
+    transition: 0.5s;
+}
+.footer-text:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+.footer-links{
+    cursor:pointer;
+    letter-spacing: 0.1rem;
+    margin-left: 14px;
+}
+.social{
+    margin-top:-5rem;
+    margin-left:2rem;
+}
+.footer-icon{
+    margin-top: -2.8rem;
+    border-radius: 50%;
+  
+}
+.footer-icon::before{
+    transition: .5s;
+}
+.footer-icon:hover{
+    background: rgb(47, 137, 255); 
+    box-shadow: 0 0 100px rgb(47, 154, 255); 
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+.footerg-icon{
+    border-radius: 50%;
+  
+}
+.footerg-icon::before{
+    transition: .5s;
+}
+.footerg-icon:hover{
+    background: rgb(47, 137, 255); 
+    box-shadow: 0 0 100px rgb(47, 154, 255); 
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+
+
+.footer-icon2{
+    height:45px;
+    width: 45px;
+    margin-top: -2.8rem;
+    border-radius: 50%;
+    
+  
+}
+.footer-icon2::before{
+    transition: .5s;
+}
+.footer-icon2:hover{
+    background: rgb(47, 137, 255); 
+    box-shadow: 0 0 100px rgb(47, 154, 255); 
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+
+
+.footer-icon3{
+    margin-top: -3rem;
+    border-radius: 50%;
+  
+}
+.footer-icon3::before{
+    transition: .5s;
+}
+.footer-icon3:hover{
+    background: rgb(47, 137, 255); 
+    box-shadow: 0 0 100px rgb(47, 154, 255); 
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+
+
+.mail{
+
+    font-size: 24px;
+}
+.span{
+    color:#64d2e8;
+    text-decoration: underline;
+}

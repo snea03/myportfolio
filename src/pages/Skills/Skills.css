@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+.skills-head{
+  font-family: 'Josefin Sans', sans-serif;
+	color:rgb(115, 161, 254);
+	letter-spacing: 0.2rem;;
+}
+.skills-box{
+    height:500px;
+    width: 600px;
+    background: rgba(95, 95, 119, 0.31);
+    box-shadow: 0px 35px 139px -41px rgba(250, 243, 243, 0.16);
+    border-radius: 35px;
+}
+.skills-div{
+    margin-top: 4rem;
+}
+.skills-list{
+    /* line-height: 4rem; */
+}
+.skill-head{
+    letter-spacing: 0.2rem;
+    font-size:21px;
+}

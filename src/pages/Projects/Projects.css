@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+.project-head{
+  font-family: 'Josefin Sans', sans-serif;
+	color:rgb(115, 161, 254);
+	letter-spacing: 0.2rem;;
+}
+.hover-img {
+   
+    color: #fff;
+    display: inline-block;
+    margin: 8px;
+    max-width: 500px;
+    min-width: 500px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hover-img * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+  }
+  
+  .hover-img:before,
+  .hover-img:after {
+   
+   
+    background-color:rgba(0, 0, 0, 0.634);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+  }
+  .projects{
+    backface-visibility: hidden;
+  }
+  .project-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .hover-img:hover:before,
+  .hover-img:hover:after {
+    transform: scale(1);
+    opacity: 1;
+  }
+  hover-img:hover > .projects {
+    opacity: 0.7;
+  }
+  
+  .hover-img:hover .project-caption {
+    opacity: 1;
+  }
+  
+  .swiper {
+    /* width: 100%; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* width: 300px;
+    height: 100%; */
+  }
+  
+  .swiper-slide img {
+    display: block;
+    /* width: 100%; */
+  }

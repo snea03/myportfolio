@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.head-text{
+	/* font-family: 'Tangerine', serif; */
+  /* font-size: 48px; */
+  text-shadow: 4px 4px 4px rgb(125, 125, 125);
+}
+.section1{
+    border: 1.5rem solid #1a1a32;
+    background-color: rgb(20, 20, 39);
+    border-radius: 9.375rem;
+	box-shadow: rgba(18, 18, 44, 0.25) 0px 50px 100px -20px, rgba(16, 16, 38, 0.3) 0px 30px 60px -30px;
+    /* margin-left: 8rem; */
+	letter-spacing: 0.2rem;
+	margin: auto;
+	font-family:  'Oswald', sans-serif;;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+} 
+.heading{
+    margin-top: 3.5rem;
+    margin-left: 20rem;
+}
+.heading1{
+    margin-top: 7rem;
+    margin-left: 20rem;
+}
+.heading2{
+    margin-top: 10rem;
+    margin-left: 24rem;
+}
+.btn{
+    border-radius: 5rem;
+	letter-spacing: 0.1rem;
+	padding:1.3rem;
+    /* background: radial-gradient(80% 80% at 50.23% 11.76%, rgba(62, 79, 234, 0.63) 0%, rgba(64, 79, 224, 0.63) 100%); */
+	/* background-color:rgb(16, 16, 140); */
+	background-color:rgb(6, 45, 96);
+    margin-top: 14rem;
+    margin-left: 30rem;
+	border:3px solid rgb(6,45,96);
+}
+.btn:hover{
+	background-color:#ffffff;
+	/* background: radial-gradient(80% 80% at 50.23% 11.76%, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%); */
+	color:rgb(4, 4, 56);
+	font-weight:bold;
+	background: rgb(231, 233, 241); 
+    /* box-shadow: 0 0 100px rgb(47, 144, 255);  */
+}
+.pc{
+    
+    margin-left: 44rem;
+}
